@@ -93,7 +93,7 @@
     },
     {
       title: 'Crowd Counting and Density Estimation',
-      image: './img/projects/csrnet.jpg',
+      image: './img/projects/csr.gif',
       imageAlt: 'Expense Tracker Project Cover Photo',
       description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
       badgeCaption: 'Detail',
@@ -133,7 +133,6 @@
   const blogPosts = [
     {
       name: '興趣嗜好',
-      //link: 'http://tiny.cc/2vxzgz',
       link: './hobby.html',
       image: './img/about-me/about-me-1.jpeg'
     },

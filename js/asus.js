@@ -3,7 +3,7 @@
     {
       title: 'Face recognition system for ASUS internal',
       image: './img/projects/fr.gif',
-      imageAlt: 'Nextmeal Project Cover Photo',
+      imageAlt: 'fr',
       description: 'Train FR model by Facenet frameworks, can attain near 99% accuracy in ASUS internal for 6000ids',
       badgeCaption: 'Detail',
       links: {
@@ -30,9 +30,9 @@
       ]
     },
     {
-      title: 'CV mechanism method to add eyeglasses on Face id face to improve face verification performance',
+      title: 'Use CV mechanism method to add eyeglasses on Face id face to improve face verification performance',
       image: './img/projects/glasses.png',
-      imageAlt: 'Chrome Extension Project Cover Photo',
+      imageAlt: 'add glasses',
       description: 'According to face landmarks and face direction to add difference type glasses into datasets to improve 2% face verification accuracy.',
       badgeCaption: 'Detail',
       links: {
