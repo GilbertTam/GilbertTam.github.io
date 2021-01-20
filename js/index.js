@@ -21,6 +21,23 @@
       ]
     },
     {
+      title: 'Fisheye camera person detect',
+      image: './img/projects/fisheye_person_detect.gif',
+      imageAlt: 'Nextmeal Project Cover Photo',
+      description: 'Provide two method to detect person on fisheye camera',
+      badgeCaption: 'Detail',
+      links: {
+      },
+      accomplishments: [
+        'Built with Vue, Vuex, Vue Router',
+        'Create maps using Google Maps API',
+        'Chart.js for data visualization',
+        'Using Axios, RESTful API',
+        'Connect to third party payment APIs',
+        'Node, Express, MySQL',
+      ]
+    },
+    {
       title: 'Face Direct',
       image: './img/projects/direct.gif',
       imageAlt: 'Chrome Extension Project Cover Photo',
@@ -59,22 +76,19 @@
       ]
     },
     {
-      title: 'Hand Detect',
+      title: 'Torch System',
       image: './img/projects/1.gif',
       imageAlt: 'Expense Tracker Project Cover Photo',
-      description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
+      description: 'Use pose detection offset to estimate palms position, Use this position calculate customers foucas product in store, and summary the hot spot',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/smallpaes/todo-list',
-        medium: 'https://bit.ly/2yIrimi'
+        
+        
       },
       accomplishments: [
-        'Express Handlebars & Bootstrap',
-        'MySQL & Sequelize',
-        'Passport Authentication',
-        'Front-end & Back-end validation',
-        'CSRF Protection',
-        'Animate.css',
+        'Use light pose detection method can reach real time on the system',
+        'Write a method to estimate customer hand position and combine with store focus product',
+        'Summary customer behavior',
       ]
     },
     {
@@ -120,22 +134,23 @@
   const blogPosts = [
     {
       name: '興趣嗜好',
-      link: 'http://tiny.cc/2vxzgz',
+      //link: 'http://tiny.cc/2vxzgz',
+      link: './hobby.html',
       image: './img/about-me/about-me-1.jpeg'
     },
     {
       name: 'cv相關project',
-      link: 'http://tiny.cc/atxzgz',
+      link: 'cv.html',
       image:'./img/about-me/about-me-2.jpg"'
     },
     {
       name: '在華碩的project',
-      link: 'http://tiny.cc/2vxzgz',
+      link: './project_Asus.html',
       image: './img/about-me/about-me-5.jpg'
     },
     {
-      name: '證照及學習課程',
-      link: 'http://tiny.cc/2vxzgz',
+      name: '證照及學習成績',
+      link: './study.html',
       image: './img/about-me/about-me-6.jpg'
     }
     
