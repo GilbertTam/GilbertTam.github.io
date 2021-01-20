@@ -48,7 +48,9 @@ div.slider li {
   width: 100%;
 }
 
-
+div.bordered img{
+  max-width: 70%; 
+}
 
 
 div.slider h3,

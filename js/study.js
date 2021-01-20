@@ -112,7 +112,7 @@
     },
     {
       title: 'Train and Deploy Age/Gender Detection',
-      image: './img/projects/age2.jpg',
+      image: './img/projects/age.gif',
       imageAlt: 'Expense Tracker Project Cover Photo',
       description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
       badgeCaption: 'Detail',

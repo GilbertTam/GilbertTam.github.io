@@ -98,8 +98,7 @@
       description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/smallpaes/todo-list',
-        medium: 'https://bit.ly/2yIrimi'
+
       },
       accomplishments: [
         'Express Handlebars & Bootstrap',
@@ -112,7 +111,7 @@
     },
     {
       title: 'Train and Deploy Age/Gender Detection',
-      image: './img/projects/age2.jpg',
+      image: './img/projects/age2.gif',
       imageAlt: 'Expense Tracker Project Cover Photo',
       description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
       badgeCaption: 'Detail',
@@ -193,10 +192,11 @@
     // generate html for each blog post
     blogPosts.forEach(post => {
       // place post
+      // target="_blank"
       aboutSection.innerHTML += `
         <div class="col s12 m6 xl3">
           <div class="card animated jackInTheBox slow">
-            <a href="${post.link}" target="_blank">
+            <a href="${post.link}" >
               <div class="card-image" style="background-image: url(${post.image});">
                 <div class="overlay"></div>
                 <span class="card-title">

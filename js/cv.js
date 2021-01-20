@@ -131,34 +131,9 @@
     }
   ]
 
-  const blogPosts = [
-    {
-      name: '興趣嗜好',
-      //link: 'http://tiny.cc/2vxzgz',
-      link: './hobby.html',
-      image: './img/about-me/about-me-1.jpeg'
-    },
-    {
-      name: 'cv相關project',
-      link: 'cv.html',
-      image:'./img/about-me/about-me-2.jpg"'
-    },
-    {
-      name: '在華碩的project',
-      link: './project_Asus.html',
-      image: './img/about-me/about-me-5.jpg'
-    },
-    {
-      name: '證照及學習成績',
-      link: './study.html',
-      image: './img/about-me/about-me-6.jpg'
-    }
-    
-  ]
-
   const nav = document.querySelector('nav')
   const navHeight = nav.offsetHeight
-  const skillOffsetHeight = document.getElementById('skill').offsetTop
+  
   const projectOffsetHeight = document.getElementById('project').offsetTop
   const actionBtn = document.querySelector('.fixed-action-btn a:first-of-type')
   let skillsAnimated = false
@@ -196,7 +171,7 @@
       aboutSection.innerHTML += `
         <div class="col s12 m6 xl3">
           <div class="card animated jackInTheBox slow">
-            <a href="${post.link}" target="_blank">
+            <a href="${post.link}" >
               <div class="card-image" style="background-image: url(${post.image});">
                 <div class="overlay"></div>
                 <span class="card-title">
@@ -212,7 +187,7 @@
 
   // Handle skill section animation
   function animateSkills() {
-    if (window.pageYOffset + window.innerHeight <= skillOffsetHeight) { return }
+    
     const firstSkillSection = document.getElementById('front-end-carousel-item')
     const animations = ['animated', 'slideInRight']
     skillsAnimated = true
@@ -304,10 +279,6 @@
   }
 
   window.addEventListener('scroll', () => {
-    animateNav()
-    showFloatingActionButton()
-    if (!aboutCardPlaced) { animateAboutCards() }
-    if (!skillsAnimated) { animateSkills() }
     if (!projectPlaced) { placeProjects() }
     if (!learnMoreAnimated && projectPlaced) { animateLearnMore() }
   })
