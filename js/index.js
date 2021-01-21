@@ -3,8 +3,8 @@
     {
       title: 'Train and Deploy head detect on Nano/Xavier',
       image: './img/projects/face_head.jpg',
-      imageAlt: 'Nextmeal Project Cover Photo',
-      description: 'An online platform, built by a group of 3, for users to readily access and order awesome food nearby at a reasonable price. Dashboards with data visualization are also developed for restaurant owners and admin.',
+      imageAlt: 'head face',
+      description: 'Has experience in end to end training head detection with difference frameworks, Has experience in deploying head models with NVIDIA TensorRT on edge devices Nano/Xavier.',
       badgeCaption: 'Detail',
       links: {
         github: 'https://github.com/GilbertTam/',
@@ -12,67 +12,64 @@
         //medium: 'http://tiny.cc/kd1zgz'
       },
       accomplishments: [
-        'Built with Vue, Vuex, Vue Router',
-        'Create maps using Google Maps API',
-        'Chart.js for data visualization',
-        'Using Axios, RESTful API',
-        'Connect to third party payment APIs',
-        'Node, Express, MySQL',
+        'Modify lffd model architecture and add data augmentation method to improve 1.66% mAP and attain 95% accuracy on Brainwash dataset compared with orgin state of art head detect model.',
+        'The speed about my model can attain over 100FPS with 640*480 resoltion after using FP16 tensorrt speed up.',
+        'Develop auto script to evaluation model performance, select best model from difference test scene.',
+        'Set up an auto evaluation rule on difference scense. Only need to import the detect result and ground truth will auto generate evaluation result index likes mAP, precision recall index.',
+        'Train Centernet frameworks by Pytorch with backbone DLA-34 and MobilenetV2-fpn.',
+        'Train lffd frameworks by MXNet.',
+        'Train face, non face detection use MobilenetV2 by Keras framework.',
       ]
     },
     {
       title: 'Fisheye camera person detect',
-      image: './img/projects/fisheye_person_detect.gif',
-      imageAlt: 'Nextmeal Project Cover Photo',
-      description: 'Provide two method to detect person on fisheye camera',
+      image: './img/projects/combine_fisheye.gif',
+      imageAlt: 'Fisheye camera person detect',
+      description: 'Provide two method to detect person on fisheye camera. One Use RAPiD person detect method on fisheye system. Another use Pifpaf keypoints detect on dewarp fisheye image, Then transfer dewarp bounding box to rewarp fisheye image.',
       badgeCaption: 'Detail',
       links: {
       },
       accomplishments: [
-        'Built with Vue, Vuex, Vue Router',
-        'Create maps using Google Maps API',
-        'Chart.js for data visualization',
-        'Using Axios, RESTful API',
-        'Connect to third party payment APIs',
-        'Node, Express, MySQL',
+        'Provide two road to detect person on fisheye camera.',
+        'Write transfer method to transfer dewarp bounding box to rewarp according to CV method.',
+        'Integrate Pifpaf pose detection method into system for obtain bounding box and keypoint information.',
+        'Transform fisheye Dewarp and rewarp image.'
       ]
     },
     {
       title: 'Face Direct',
       image: './img/projects/direct.gif',
-      imageAlt: 'Chrome Extension Project Cover Photo',
-      description: 'A functional Google Chrome Extension that helps users readily generate placeholder images and find the right royalty-free images with accessible links of all sizes listed on a report that can be copied and used right away!',
+      imageAlt: 'Face Direct',
+      description: 'Implentment more lightweight face direct model',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/GilbertTam/',
         //chrome: 'https://bit.ly/306Wp7b',
         //facebook: 'https://www.facebook.com/profile.php?id=1587343981'
       },
       accomplishments: [
-        'Chrome Extension form scratch',
-        'Published to Chrome Web Store',
-        'Built with Bootstrap 4.3',
-        'Using Javascript ES6'
+        'Use lightweight EfficientNetB0 backbone with multi task to detect 3 axis degrees from head direct.',
+        'With 4.4M parameters 4.155 MAE',
+        'Compare to orgin face direct model FSA-Net,which with 5.1MB parameters and 5.07 MAE #4 in BIWI dataset, More lighter and better performance.',
       ]
     },
     {
-      title: 'Integrate Sort/Deep Sort Tracking into Person Detect',
+      title: 'Integrate Sort/Deep Sort Tracking into Person Detect, Integrate sort into FR system',
       image: './img/projects/2.gif',
       imageAlt: 'Integrate Sort/Deep Sort Tracking into Person Detect',
       description: '',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/GilbertTam/',
+        //github: 'https://github.com/GilbertTam/',
         //heroku: 'https://boiling-beach-19178.herokuapp.com/',
         //facebook: 'https://www.facebook.com/profile.php?id=1587343981'
       },
       accomplishments: [
-        'Express Handlebars & Bootstrap',
-        'MongoDB & Mongoose',
-        'Passport Authentication',
-        'Front-end & Back-end validation',
-        'CSRF Protection',
-        'Password reset & Mailing feature'
+        '',
+        '',
+        '',
+        '',
+        '',
+        ''
       ]
     },
     {
@@ -85,9 +82,9 @@
     
       },
       accomplishments: [
-        'Use light pose detection method can reach real time on the system',
-        'Write a method to estimate customer hand position and combine with store focus product',
-        'Summary customer behavior',
+        'Use light pose detection method can reach real time on the system.',
+        'Write a method to estimate customer hand position and combine with store focus product.',
+        'Summary customer behavior.',
       ]
     },
     {
@@ -119,12 +116,13 @@
         //medium: 'https://bit.ly/2yIrimi'
       },
       accomplishments: [
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
+        'Use Wide Resnet backbone to attain 97.46 percentage gender accuracy after fine tune model. Compared to the origin model , improve 10 percentage accuracy.',
+        'Use EfficientNetB3 backbone to attain 95.1 percentage gender accuracy after fine tune model. Compared to the origin model , improve 10 percentage accuracy.',
+        'Use Mobilnet backbone attain 97.46 percentage gender accuracy and 79.5 percentage age accuracy.',
+        'According to covid-19. Write an algorithm to add  mask on a dataset to enhance gender accuracy in the real world.',
+        'Deploy age Model to production as an flask api, In the same route can use POST method to get age /gender values.',
+        'EfficientNetB3 can reach 80.5% age accuracy. And 78.6% gender accuracy for five range 幼兒(0-7) 青少年(8-19) 成年(20-50) 中年(51-70) 老年(71-) on SOGO side face scenes.',
+        'Train with side face, mask face, front face , mixed models.',
       ]
     }
   ]

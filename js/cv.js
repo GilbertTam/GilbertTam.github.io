@@ -12,8 +12,8 @@
         //medium: 'http://tiny.cc/kd1zgz'
       },
       accomplishments: [
-        'Family with openCV contour detect method',
-        'getRadiusCenter() method obtain fisheyes center and radius',
+        'Family with openCV contour detect method.',
+        'getRadiusCenter() method obtain fisheyes center and radius.',
       ]
     },
     {
@@ -27,8 +27,10 @@
         heroku: 'https://arxiv.org/abs/2003.09093'
       },
       accomplishments: [
-        'Write a algorithm to add mask on face according to face landmark',
-        'Compare to Masked Face Recognition Dataset and Application method (Home icon), the result is more fit on UTKFace datasets',
+        'Write a algorithm to add mask on face according to face landmark.',
+        'Compare to Masked Face Recognition Dataset and Application method (Home icon), the result is more fit on UTKFace datasets.',
+        'Train CycleGAN method from wear mask to remove mask face.',
+        'Train CycleGAN method from remove mask face to wear mask.',
       ]
     },
     {
@@ -40,8 +42,8 @@
       links: {
       },
       accomplishments: [
-        'Find a application to filter out people  wear mask or not',
-        'Can attain more than 90% accuracy on general case'
+        'Find a application to filter out people  wear mask or not.',
+        'Can attain more than 90% accuracy on general case.'
       ]
     },
     {
@@ -54,8 +56,8 @@
         github: 'https://github.com/GilbertTam/helmet_detection_yolov3'
       },
       accomplishments: [
-        'Based on Yolov3 frameworks to train helmet detection',
-        'Can reach over 90% on our scenes',
+        'Based on Yolov3 frameworks to train helmet detection.',
+        'Can reach over 90% on our scenes.',
       ]
     },
 
