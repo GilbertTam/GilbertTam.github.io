@@ -7,9 +7,9 @@
       description: 'An online platform, built by a group of 3, for users to readily access and order awesome food nearby at a reasonable price. Dashboards with data visualization are also developed for restaurant owners and admin.',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/smallpaes/nextmeal',
-        heroku: 'https://nextmeal.herokuapp.com/#/',
-        medium: 'http://tiny.cc/kd1zgz'
+        github: 'https://github.com/GilbertTam/',
+        //heroku: 'https://nextmeal.herokuapp.com/#/',
+        //medium: 'http://tiny.cc/kd1zgz'
       },
       accomplishments: [
         'Built with Vue, Vuex, Vue Router',
@@ -44,9 +44,9 @@
       description: 'A functional Google Chrome Extension that helps users readily generate placeholder images and find the right royalty-free images with accessible links of all sizes listed on a report that can be copied and used right away!',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/smallpaes/find-placeholder-image',
-        chrome: 'https://bit.ly/306Wp7b',
-        facebook: 'https://www.facebook.com/profile.php?id=1587343981'
+        github: 'https://github.com/GilbertTam/',
+        //chrome: 'https://bit.ly/306Wp7b',
+        //facebook: 'https://www.facebook.com/profile.php?id=1587343981'
       },
       accomplishments: [
         'Chrome Extension form scratch',
@@ -58,13 +58,13 @@
     {
       title: 'Integrate Sort/Deep Sort Tracking into Person Detect',
       image: './img/projects/2.gif',
-      imageAlt: 'Expense Tracker Project Cover Photo',
-      description: 'A practical web application built with Node.js, Express, and MongoDB for you to readily record, view, and manage your expense with an account: Create, view, edit, delete, filter expenses are as easy as pie',
+      imageAlt: 'Integrate Sort/Deep Sort Tracking into Person Detect',
+      description: '',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/smallpaes/expense-tracker',
-        heroku: 'https://boiling-beach-19178.herokuapp.com/',
-        facebook: 'https://www.facebook.com/profile.php?id=1587343981'
+        github: 'https://github.com/GilbertTam/',
+        //heroku: 'https://boiling-beach-19178.herokuapp.com/',
+        //facebook: 'https://www.facebook.com/profile.php?id=1587343981'
       },
       accomplishments: [
         'Express Handlebars & Bootstrap',
@@ -78,12 +78,11 @@
     {
       title: 'Torch System',
       image: './img/projects/1.gif',
-      imageAlt: 'Expense Tracker Project Cover Photo',
+      imageAlt: 'Torch System',
       description: 'Use pose detection offset to estimate palms position, Use this position calculate customers foucas product in store, and summary the hot spot',
       badgeCaption: 'Detail',
       links: {
-        
-        
+    
       },
       accomplishments: [
         'Use light pose detection method can reach real time on the system',
@@ -94,38 +93,38 @@
     {
       title: 'Crowd Counting and Density Estimation',
       image: './img/projects/csr.gif',
-      imageAlt: 'Expense Tracker Project Cover Photo',
-      description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
+      imageAlt: 'Crowd Counting and Density Estimation',
+      description: '',
       badgeCaption: 'Detail',
       links: {
 
       },
       accomplishments: [
-        'Express Handlebars & Bootstrap',
-        'MySQL & Sequelize',
-        'Passport Authentication',
-        'Front-end & Back-end validation',
-        'CSRF Protection',
-        'Animate.css',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
       ]
     },
     {
       title: 'Train and Deploy Age/Gender Detection',
       image: './img/projects/age2.gif',
-      imageAlt: 'Expense Tracker Project Cover Photo',
-      description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
+      imageAlt: 'Train and Deploy Age/Gender Detection',
+      description: 'Train Age gender attributes by Keras, Deploy model on edge devices Nano and Xavier-nx',
       badgeCaption: 'Detail',
       links: {
-        github: 'https://github.com/smallpaes/todo-list',
-        medium: 'https://bit.ly/2yIrimi'
+        github: 'https://github.com/GilbertTam/',
+        //medium: 'https://bit.ly/2yIrimi'
       },
       accomplishments: [
-        'Express Handlebars & Bootstrap',
-        'MySQL & Sequelize',
-        'Passport Authentication',
-        'Front-end & Back-end validation',
-        'CSRF Protection',
-        'Animate.css',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
       ]
     }
   ]

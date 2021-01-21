@@ -4,33 +4,34 @@
       title: 'Face recognition system for ASUS internal',
       image: './img/projects/fr.gif',
       imageAlt: 'fr',
-      description: 'Train FR model by Facenet frameworks, can attain near 99% accuracy in ASUS internal for 6000ids',
+      description: ' Has experience in close world Face recognition training, train FR model by facenet frameworks, can attain near 99% accuracy in ASUS internal for 6000ids.',
       badgeCaption: 'Detail',
       links: {
       },
       accomplishments: [
         '1:N facial Identify',
         'Attain near 99% accuracy in ASUS internal for 6000ids',
-        'Provide an auto evaluation mechanism to find best model by the ROC curve and detect accuracy'
+        'Provide an auto evaluation mechanism to find best model parameters by the ROC curve and detect accuracy'
       ]
     },
     {
       title: 'Auto scraping face data',
       image: './img/projects/face_catch.png',
       imageAlt: 'face catch',
-      description: 'A mechanism end to end method to auto collect face datasets by parser Google search data',
+      description: 'A mechanism end to end method to auto collect face datasets by parser Google search data.',
       badgeCaption: 'Detail',
       links: {
       },
       accomplishments: [
         'Web scraping by Selenium',
-        'Provide a mechanism to auto save crop align face bt mtcnn',
+        'Provide a mechanism to auto save crop align face by mtcnn and orgin face',
+        'Provide a proprocessing mechanism to clean each face ids data',
         'Use dbscan clustering method for filter outliers face id picture',
         
       ]
     },
     {
-      title: 'Use CV mechanism method to add eyeglasses on Face id face to improve face verification performance',
+      title: 'Eyeglasses synthesis.',
       image: './img/projects/glasses.png',
       imageAlt: 'add glasses',
       description: 'According to face landmarks and face direction to add difference type glasses into datasets to improve 2% face verification accuracy.',
@@ -38,6 +39,7 @@
       links: {
       },
       accomplishments: [
+        'Use CV mechanism method to add eyeglasses on Face id face to improve face verification performance',
         'Dlib Face landmark method to find eye postion',
         'Deepgaze face direct method for filter yaw degree below 15 degree',
         'Add 8 differenct types glassses',
@@ -45,18 +47,33 @@
       ]
     },
     {
-      title: 'CV mechanism method to add eyeglasses on Face id face to improve face verification performance',
-      image: './img/projects/glasses.png',
-      imageAlt: 'Chrome Extension Project Cover Photo',
-      description: 'According to face landmarks and face direction to add difference type glasses into datasets to improve 2% face verification accuracy.',
+      title: '3D Face Synthesis.',
+      image: './img/projects/aug.gif',
+      imageAlt: '3D Face Synthesis',
+      description: 'Simulating face image appearances across unseen 3D viewpoints. To increase face data for same face id.',
       badgeCaption: 'Detail',
       links: {
       },
       accomplishments: [
-        'Dlib Face landmark method to find eye postion',
-        'Deepgaze face direct method for filter yaw degree below 15 degree',
-        'Add 7 differenct types glassses',
-
+        '3D Face Synthesis for data augmentation',
+        'Facial landmark detector',
+        'Given these detected landmarks we estimate the six degrees of freedom pose for the face',
+      ]
+    },
+    {
+      title: 'Gesture dectect on tango project',
+      image: './img/projects/gesture_hand.gif',
+      imageAlt: 'Gesture dectect',
+      description: 'Provide a sdk porting on unity, Can detect serival hand gesture base on Yolo object detection.',
+      badgeCaption: 'Detail',
+      links: {
+      },
+      accomplishments: [
+        'Base on Yolo framework training hand gesture',
+        'Build Yolo on unity',
+        'Established related functions not limited to palm identification but also apply palm bounding box in relevant projects',
+        'Family with other object detection method likes overfeat, RCNN'
+        
       ]
     },
 
