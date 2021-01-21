@@ -56,7 +56,7 @@
       title: 'Integrate Sort/Deep Sort Tracking into Person Detect, Integrate sort into FR system',
       image: './img/projects/2.gif',
       imageAlt: 'Integrate Sort/Deep Sort Tracking into Person Detect',
-      description: '',
+      description: 'Write an mechanism to verify face id value by tracking',
       badgeCaption: 'Detail',
       links: {
         //github: 'https://github.com/GilbertTam/',
@@ -64,12 +64,7 @@
         //facebook: 'https://www.facebook.com/profile.php?id=1587343981'
       },
       accomplishments: [
-        '',
-        '',
-        '',
-        '',
-        '',
-        ''
+        'Integrate sort into FR system can improve 4% accuracy on one day open world FR system',       
       ]
     },
     {
@@ -91,18 +86,13 @@
       title: 'Crowd Counting and Density Estimation',
       image: './img/projects/csr.gif',
       imageAlt: 'Crowd Counting and Density Estimation',
-      description: '',
+      description: 'According to 4K video , Use crowd counting and density estimation method to observe people density',
       badgeCaption: 'Detail',
       links: {
 
       },
       accomplishments: [
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
+        'Speed up inference speed on 4K video, Solution multi scale object detection method comare to normal object detection method',
       ]
     },
     {
