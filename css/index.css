@@ -150,26 +150,36 @@ ul.sidenav .subheader {
 }
 
 #side-job-pic {
-  top:13%;
+  top:0%;
   right:10px;
   height: 40%;
   width: 50%;
   opacity: 0.8;
   background-color: #3b5998;
   border: 3px solid  #000;
-  border-radius: 10px;
+  border-radius: 10px 100px / 120px;
   display: flex;
 }
 
 #side-job-pic1 {
-  top:70%;
+  top:40%;
   right:10px;
   height: 40%;
   width: 50%;
   background-color: #3b5998;
-  border: 3px solid #3b5998;
-  border-radius: 10px;
-  display: flex;
+  border-radius: 10px 100px / 120px;
+  opacity: 0.8;
+}
+
+#side-job-pic2 {
+  top:80%;
+  right:10px;
+  height: 40%;
+  width: 50%;
+  background-color: #6d3b98;
+  border: 3px solid #6d3b98;
+  border-radius: 10px 100px / 120px;
+  opacity: 0.8;
 }
 
 #side-nav-logo img {
